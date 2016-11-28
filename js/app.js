@@ -17,7 +17,6 @@ $(window).scroll(function(){
 	}
 
 
-
 	if (isScrolledIntoView('#section-two')===true){
 		$('body').css('background-color','#EBD1FF');
 		$('#nav li a').css('color','#222');
@@ -30,7 +29,6 @@ $(window).scroll(function(){
 	}
 
 
-
 	if (isScrolledIntoView('#section-three')===true){
 		$('body').css('background-color','#DCEEFF');
 		$('#nav li a').css('color','#222');
@@ -41,7 +39,6 @@ $(window).scroll(function(){
 	} else {
 		// something else
 	}
-
 
 
 	if (isScrolledIntoView('#section-four')===true){
@@ -57,7 +54,6 @@ $(window).scroll(function(){
 	}
 
 
-
 	if (isScrolledIntoView('#section-five')===true){
 		$('body').css('background-color','#FFF2CC');
 		$('#nav li a').css('color','#222');
@@ -67,7 +63,6 @@ $(window).scroll(function(){
 	} else {
 		// something else
 	}
-
 
 
 	if (isScrolledIntoView('#section-six')===true){
@@ -81,7 +76,6 @@ $(window).scroll(function(){
 	}
 
 
-
 	if (isScrolledIntoView('#section-seven')===true){
 		$('body').css('background-color','#F4CDCD');
 		$('#nav li a').css('color','#000');
@@ -93,13 +87,6 @@ $(window).scroll(function(){
 	}
 
 });
-
-
-
-
-
-
-
 
 function isScrolledIntoView(elem)
 {
